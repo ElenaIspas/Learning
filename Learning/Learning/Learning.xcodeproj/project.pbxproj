@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D62DE3C1DCB6FB70079B55D /* gtest-all.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D62DE3A1DCB6FB70079B55D /* gtest-all.cpp */; };
 		5D64FBD61DC9F9F700DD4DC1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D64FBD51DC9F9F700DD4DC1 /* main.cpp */; };
+		5D73E42D1DDB2E6D005465F3 /* TestClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D73E42B1DDB2E6D005465F3 /* TestClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D62DE3A1DCB6FB70079B55D /* gtest-all.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-all.cpp"; path = "gtest/gtest-all.cpp"; sourceTree = "<group>"; };
+		5D62DE3B1DCB6FB70079B55D /* gtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gtest.h; path = gtest/gtest.h; sourceTree = "<group>"; };
 		5D64FBD21DC9F9F700DD4DC1 /* Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D64FBD51DC9F9F700DD4DC1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5D73E42A1DDAFB83005465F3 /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
+		5D73E42B1DDB2E6D005465F3 /* TestClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestClass.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		5D64FBD41DC9F9F700DD4DC1 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				5D73E42B1DDB2E6D005465F3 /* TestClass.cpp */,
+				5D62DE3A1DCB6FB70079B55D /* gtest-all.cpp */,
+				5D62DE3B1DCB6FB70079B55D /* gtest.h */,
 				5D64FBD51DC9F9F700DD4DC1 /* main.cpp */,
+				5D73E42A1DDAFB83005465F3 /* Vector.hpp */,
 			);
 			path = Learning;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D73E42D1DDB2E6D005465F3 /* TestClass.cpp in Sources */,
 				5D64FBD61DC9F9F700DD4DC1 /* main.cpp in Sources */,
+				5D62DE3C1DCB6FB70079B55D /* gtest-all.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +258,7 @@
 				5D64FBDB1DC9F9F700DD4DC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
